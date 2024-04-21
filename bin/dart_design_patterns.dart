@@ -4,6 +4,7 @@ import 'package:dart_design_patterns/src/creational/builder.dart' as builder;
 import 'package:dart_design_patterns/src/creational/factory_method.dart' as factory_method;
 import 'package:dart_design_patterns/src/creational/singleton.dart' as singleton;
 import 'package:dart_design_patterns/src/structural/decorator.dart' as decorator;
+import 'package:dart_design_patterns/src/structural/facade.dart' as facade;
 
 void main(List<String> arguments) {
   // creational patterns
@@ -15,4 +16,5 @@ void main(List<String> arguments) {
   visitor.main();
   // structural patterns
   decorator.main();
+  facade.main();
 }
