@@ -1,4 +1,4 @@
-/// The Singleton pattern is useful when you want to limit the number
+/// The Singleton pattern is useful when we want to limit the number
 /// of instances of a class and ensure global access to that instance.
 library;
 
