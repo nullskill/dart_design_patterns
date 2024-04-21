@@ -1,5 +1,5 @@
 /// The Builder pattern allows to create complex objects step by step,
-/// providing flexibility and separation of concerns
+/// providing flexibility and separation of concerns.
 library;
 
 // Product class

@@ -1,5 +1,7 @@
-import 'package:dart_design_patterns/dart_design_patterns.dart' as dart_design_patterns;
+import 'package:dart_design_patterns/src/creational/builder.dart' as builder;
+import 'package:dart_design_patterns/src/creational/singleton.dart' as singleton;
 
 void main(List<String> arguments) {
-  dart_design_patterns.main();
+  builder.main();
+  singleton.main();
 }
