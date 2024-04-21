@@ -16,7 +16,7 @@ class House {
 }
 
 // Builder interface
-abstract class HouseBuilder {
+abstract interface class HouseBuilder {
   void buildFoundation();
   void buildWalls();
   void buildRoof();
