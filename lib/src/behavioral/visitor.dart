@@ -1,4 +1,4 @@
-/// The Visitor pattern allows you to add new operations
+/// The Visitor pattern allows to add new operations
 /// to existing object structures without modifying those structures.
 library;
 
@@ -7,7 +7,8 @@ abstract interface class Element {
   void accept(Visitor visitor);
 }
 
-// Concrete elements
+/* Concrete elements */
+
 class ConcreteElementA implements Element {
   @override
   void accept(Visitor visitor) {
